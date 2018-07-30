@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+#container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+#content {
+	width: 70%
+}
+
+#content .post {
+	float: left;
+	max-width: 266px;
+	margin: 4px;
+}
+
+h2 {
+	font-family: lato;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000;
+}
+
+p {
+	font-family: lato;
+	font-size: 1em;
+	color: #424242;
+}
+
+#sidebar {
+	width: 30%;
+	float: right;
+	background: #424242;
+}
+
+#sidebar h1 {
+	color: #fff;
+	font-family: lato;
+	font-size: 1.4em;
+}
+
+#navigation {
+	background: #f3f3f3;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	margin-bottom: 15px;
+}
+
+#navigation ul {
+	list-style: none;
+	width: 400px;
+}
+
+#navigation ul li {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#navigation ul li button {
+	background: none;
+    border: none;
+    font-family: lato;
+    font-weight: bold;
+	font-size: 0.9em;
+	color: #4d4d4d;
+	cursor: pointer;
+	outline: none;
+}
